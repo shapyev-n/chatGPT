@@ -38,8 +38,6 @@ const Main = () => {
               placeholder="Имя пользователья"
               className={styles.input}
               onChange={handleChange}
-              autoComplete="off"
-              required
             />
           </div>
           <div className={styles.group}>
@@ -50,8 +48,6 @@ const Main = () => {
               value={values[ROOM]}
               className={styles.input}
               onChange={handleChange}
-              autoComplete="off"
-              required
             />
           </div>
 
